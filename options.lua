@@ -9,8 +9,8 @@ return {
     numberwidth = 1,
     spellfile = vim.fn.has "win32" ~= 0 and "C:\\Users\\Johnkz\\AppData\\Local\\nvim\\lua\\user\\spell\\en.utf-8.add"
       or "/home/dat/.config/astronvim/lua/user/spell/en.utf-8.add",
-    wrap = true,
+    wrap = false,
     showbreak = "↪ ",
     guifont = "RecMonoCasual NF:h14",
-  },
+  }
 }
